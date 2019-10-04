@@ -37,5 +37,11 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #333;
+  background-color: #e0e0e0;
+}
+.aboutLMS {
+  width: 1927px;
+  height: 657px;
+  border: solid 1px #b3b3b3;
+  background-color: #ffffff;
 }
