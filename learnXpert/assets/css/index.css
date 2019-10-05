@@ -68,3 +68,9 @@
   height: 7101px;
   object-fit: contain;
 }
+.archievements-img {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  background-color: #f7f7f7;
+}
