@@ -1,3 +1,4 @@
+/* Top-Navigation */
 .topnav {
   width: 100%;
   height: 50px;
@@ -14,6 +15,7 @@
   width: 100%;
   justify-content: space-between;
 }
+/* Navigation */
 .navbar {
   background-color: #ffffff !important;
   width: 100%;
@@ -40,8 +42,8 @@
 .fa-search {
   color: #007bff;
 }
-
-.header-img {
+/* header */
+.heading-section {
   width: 100%;
   object-fit: contain;
   margin: 0;
@@ -49,28 +51,48 @@
   border: 0;
   background-color: #e0e0e0;
 }
-.aboutLMS {
+/* about */
+.about-section {
   width: 100%;
   height: 657px;
   border: solid 1px #b3b3b3;
   background-color: #ffffff;
 }
-
-.interested-img {
+/* interested */
+.interested-section {
   width: 100%;
   height: 848px;
   object-fit: contain;
   background-color: #fff;
 }
-
-.courses {
+/* courses  */
+.courses-section {
   width: 100%;
   height: 7101px;
   object-fit: contain;
 }
-.archievements-img {
+/* archievement */
+.archiments-section {
   width: 100%;
   height: 600px;
   object-fit: contain;
   background-color: #f7f7f7;
+}
+/* live-class  */
+.live-class-section {
+  width: 100%;
+  height: 538px;
+  background-color: #fafafa;
+}
+/* portal */
+.portal-section {
+  width: 100%;
+  height: 852px;
+  background-color: #ffffff;
+}
+/* info  */
+.info-section {
+  width: 1922px;
+  height: 703px;
+  background-color: #212121;
 }
