@@ -93,6 +93,10 @@
   top: 65%;
   left: 20%;
 }
+.heading-album {
+  position: absolute;
+  top: 90%;
+}
 /* about */
 .about-section {
   width: 100%;
