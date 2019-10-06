@@ -97,14 +97,94 @@
   position: absolute;
   top: 90%;
 }
-/* about */
+/* heading-card */
+.heading-card {
+  width: 375px;
+  height: 267px;
+  box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  line-height: 267px;
+  padding-left: 30px;
+}
+.event {
+  width: 42px;
+  height: 11px;
+  font-family: Serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  color: #e6e6e6;
+  padding: 0;
+}
+.card-title {
+  width: 195px;
+  height: 22px;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+  color: #4d4d4d;
+  padding: auto;
+  margin-top: 10%;
+}
+.event-detail {
+  width: 176px;
+  height: 13px;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808080;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.event-line {
+  width: 83px;
+  height: 1px;
+  border: solid 1px #1a56d6;
+  background-color: #1a56d6;
+  margin: 30px 0 20px 0;
+}
+.event-time {
+  width: 157px;
+  height: 12px;
+  font-family: serif;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #4d4d4d;
+  margin: 0;
+  padding: 0;
+}
+.readmore-button {
+  width: 125px;
+  height: 34px;
+  background-color: #1a56d6;
+  font-family: serif;
+  font-size: 12px;
+  line-height: 34px;
+  letter-spacing: 0.24px;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+/* about____________________________________________________________________________________ */
 .about-section {
   width: 100%;
   height: 657px;
   border: solid 1px #b3b3b3;
   background-color: #ffffff;
 }
-/* interested */
+/* interested____________________________________________________________________________________ */
 .interested-section {
   width: 100%;
   height: 848px;
@@ -115,13 +195,13 @@
   width: 100%;
   height: 848px;
 }
-/* courses  */
+/* courses____________________________________________________________________________________  */
 .courses-section {
   width: 100%;
   height: 7101px;
   object-fit: contain;
 }
-/* archievement */
+/* archievement____________________________________________________________________________________ */
 .archiments-section {
   width: 100%;
   height: 600px;
@@ -132,19 +212,19 @@
   width: 100%;
   height: 600px;
 }
-/* live-class  */
+/* live-class____________________________________________________________________________________  */
 .live-class-section {
   width: 100%;
   height: 538px;
   background-color: #fafafa;
 }
-/* portal */
+/* portal____________________________________________________________________________________ */
 .portal-section {
   width: 100%;
   height: 852px;
   background-color: #ffffff;
 }
-/* info  */
+/* info____________________________________________________________________________________  */
 .info-section {
   width: 100%;
   height: 703px;
