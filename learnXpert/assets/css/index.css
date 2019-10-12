@@ -178,20 +178,25 @@
   text-align: center;
   margin: 20px 0 0 0;
 }
+.admission-card {
+  text-align: center;
+}
 .admission-button {
   width: 270px;
   height: 67px;
   border: solid 2px #1a56d6;
-  background-color: #1a56d6;
+  text-align: center;
+  line-height: 67px;
 }
-.admission-text {
-  width: 143px;
-  height: 12px;
+.admission-title {
+  width: 319px;
+  height: 27px;
   font-family: serif;
-  font-size: 16px;
-  line-height: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.08;
   text-align: left;
-  color: #1a56d6;
+  color: #4d4d4d;
 }
 /* about____________________________________________________________________________________ */
 .about-section {
