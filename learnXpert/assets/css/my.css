@@ -1,0 +1,17 @@
+.my-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -55px;
+  margin-left: -55px;
+}
+.fa-bullhorn {
+  width: 19px;
+  height: 17px;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.36px;
+  text-align: left;
+  color: #626262;
+}
