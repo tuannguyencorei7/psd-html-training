@@ -204,6 +204,9 @@
   background-color: #fff;
 }
 
+.interested-container {
+  padding: 100px 0 0 0;
+}
 .interested-title {
   width: 421px;
   height: 23px;
@@ -214,6 +217,13 @@
   letter-spacing: 1.2px;
   text-align: left;
   color: #4d4d4d;
+}
+. {
+  width: 375px;
+  height: 274px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 /* .urses____________________________________________________________________________________ */
 .courses-section {
