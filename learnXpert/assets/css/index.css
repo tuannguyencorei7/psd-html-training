@@ -204,8 +204,8 @@
   background-color: #fff;
 }
 
-.interested-container {
-  padding: 100px 0 0 0;
+.interested-container-title {
+  padding: 100px 0 20px 310px;
 }
 .interested-title {
   width: 421px;
@@ -218,13 +218,21 @@
   text-align: left;
   color: #4d4d4d;
 }
-. {
+.interested-container-card {
+  padding: 40px 0 0 0;
+  margin: auto;
+}
+.interested-card {
   width: 375px;
   height: 274px;
   border-radius: 4px;
   box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
+
 /* .urses____________________________________________________________________________________ */
 .courses-section {
   width: 100%;

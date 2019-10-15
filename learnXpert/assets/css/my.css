@@ -1,4 +1,12 @@
-.my-row {
+.my-row-heading {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -55px;
+  margin-left: -55px;
+}
+.my-row-interested {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -14,4 +22,7 @@
   letter-spacing: 0.36px;
   text-align: left;
   color: #626262;
+}
+#interested-icon {
+  font-size: 100px;
 }
