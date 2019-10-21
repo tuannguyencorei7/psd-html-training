@@ -23,6 +23,58 @@
   text-align: left;
   color: #626262;
 }
+.fa-folder-open {
+  width: 200px;
+  height: 11px;
+  opacity: 0.75;
+  font-size: 15px;
+  line-height: 1.77;
+  letter-spacing: 0.52px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.75);
+}
 #interested-icon {
   font-size: 100px;
+}
+.my-card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  display: inline-block;
+}
+
+.rate {
+  width: 150px;
+  height: 50px;
+  padding: auto;
+  margin: 0 -70px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
