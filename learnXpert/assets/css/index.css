@@ -219,8 +219,9 @@
   color: #4d4d4d;
 }
 .interested-container-card {
-  padding: 40px 0 0 0;
-  margin: auto;
+  justify-content: center;
+  width: 100%;
+  /* padding: 40px 0 0 0; */
 }
 .interested-card {
   width: 375px;
@@ -334,11 +335,43 @@
   width: 100%;
   height: 600px;
 }
+.achievements-container-title {
+  /* margin: 200px 100px 0 30px; */
+  padding: 100px 0 100px 310px;
+}
 #ttt {
   width: 40px;
   height: 50px;
   color: #1414d9;
   font-size: 50px;
+}
+.achievements-container {
+  /* padding: 0 0 0 30px; */
+}
+.achievements-card {
+  padding: 0 50px 0 50px;
+}
+.achievements-active-student {
+  width: 69px;
+  height: 21px;
+  font-family: "PTSerif";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #333333;
+}
+.achievements-active-student-number {
+  width: 125px;
+  height: 12px;
+  font-family: PTSerif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #666666;
 }
 /* live-class____________________________________________________________________________________  */
 .live-class-section {

@@ -14,13 +14,15 @@
   margin-right: -55px;
   margin-left: -55px;
 }
-..my-row-achievements {
+.my-row-achievements {
+  justify-content: center;
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -55px;
-  margin-left: -55px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .fa-bullhorn {
   width: 19px;
@@ -87,4 +89,7 @@
   color: #c59b08;
 }
 .fa-user-graduate {
+  font-size: 40px;
+  color: #1a56d6;
+  margin: 5px 0 0 0;
 }
