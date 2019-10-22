@@ -14,6 +14,14 @@
   margin-right: -55px;
   margin-left: -55px;
 }
+..my-row-achievements {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -55px;
+  margin-left: -55px;
+}
 .fa-bullhorn {
   width: 19px;
   height: 17px;
@@ -77,4 +85,6 @@
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
   color: #c59b08;
+}
+.fa-user-graduate {
 }
