@@ -349,7 +349,7 @@
   /* padding: 0 0 0 30px; */
 }
 .achievements-card {
-  padding: 0 50px 0 50px;
+  padding: 0 70px 0 70px;
 }
 .achievements-active-student {
   width: 69px;
@@ -372,6 +372,46 @@
   letter-spacing: 0.4px;
   text-align: left;
   color: #666666;
+}
+.achievements-line {
+  width: 375px;
+  height: 1px;
+  border: solid 1px #555555;
+  background-color: #555555;
+  margin: 80px 0 0 300px;
+}
+.achievements-detail {
+  width: 456px;
+  height: 63px;
+  font-family: "PTSerif";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #666666;
+  margin: 50px 0 0 300px;
+}
+.achievements-img {
+  background-image: url("../img/archievements-img.png");
+  background-size: 100%;
+  width: 1170px;
+  height: 370px;
+  object-fit: contain;
+  background-color: rgba(33, 33, 33, 0.2);
+  margin: 100px 0 0 300px;
+  position: relative;
+}
+.achievements-img-title {
+  width: 100%;
+  font-family: "PTSerif";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #ffffff;
+  margin: 10% 40%;
+  position: absolute;
 }
 /* live-class____________________________________________________________________________________  */
 .live-class-section {
