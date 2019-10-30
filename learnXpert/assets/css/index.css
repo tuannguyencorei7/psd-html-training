@@ -501,6 +501,32 @@
   width: 962px;
   height: 674px;
 }
+.live-class-img-container {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.live-class-img-button {
+  width: 270px;
+  height: 67px;
+  opacity: 0.5;
+  border-radius: 2px;
+  background-color: #1a56d6;
+  display: inline-block;
+  position: absolute;
+  margin: -68px -137px;
+}
+.live-class-img-button-text {
+  width: 142px;
+  height: 12px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 3;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+}
 /* portal____________________________________________________________________________________ */
 .portal-section {
   width: 100%;
