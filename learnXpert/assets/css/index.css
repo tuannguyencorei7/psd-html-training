@@ -480,6 +480,27 @@
   height: 282px;
   background-color: rgba(33, 33, 33, 0.2);
 }
+.img1 {
+  width: 481px;
+  height: 337px;
+  margin-left: 15px;
+}
+
+.img2 {
+  width: 484px;
+  height: 337px;
+}
+
+.img3 {
+  width: 963px;
+  height: 338px;
+  margin-left: 15px;
+}
+
+.img4 {
+  width: 962px;
+  height: 674px;
+}
 /* portal____________________________________________________________________________________ */
 .portal-section {
   width: 100%;
