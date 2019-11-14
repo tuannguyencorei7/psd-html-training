@@ -1,0 +1,23 @@
+.logo {
+    width: 157px;
+    height: 28px;
+    font-family: "RobotoSlab";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #31353e;
+  }
+
+  .navbar-text{
+    font-family: "RobotoSlab";
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #31353e;
+  }
+  .header-section {
+    background-image: url("../img/header.png");
+    width: 100%;
+
+  }
