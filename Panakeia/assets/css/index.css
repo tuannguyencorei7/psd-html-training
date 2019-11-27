@@ -136,12 +136,7 @@ a:hover{
   /* text-align: justify; */
 }
 
-.email-section{
-   background-image: url("../img/news-img.jpg");
-  background-size: 100%;
-  width: 100%;
-  height: 270px;
-}
+
 
 .news-readmore-container{
   width: 160px;
@@ -151,4 +146,123 @@ a:hover{
   background-color: #333;
   text-align: center;
 }
-.news-readmore{}
+.news-readmore-container{
+  width: 179px;
+  height: 54px;
+  border-radius: 27px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+  display: table;
+}
+
+.news-readmore-button{
+  width: 71px;
+  height: 11px;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 3;
+  text-align: center;
+  color: #4e5159;
+  display: table-cell;
+}
+
+/* email------------------------------------------- */
+.email-section{
+  background-image: url("../img/news-img.jpg");
+ background-size: 100%;
+ width: 100%;
+ height: 270px;
+}
+.email-title{
+  width: 154px;
+  height: 24px;
+  font-family: "RobotoSlab";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+}
+
+.email-detail{
+  width: 533px;
+  height: 38px;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+
+.email-field{
+  width: 500px;
+  height: 54px;
+  border-radius: 27px;
+  border: solid 1px #fff;
+  background-color:rgba(255, 255, 255, 0.4);
+  /* background: transparent; */
+  box-shadow: none;
+  outline: none;
+  padding: 20px;
+  /* opacity: 0.4; */
+
+}
+
+.email-field-button{
+  width: 213px;
+  height: 54px;
+  border-radius: 27px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+  position: absolute;
+  font-family: "RobotoSlab";
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  margin-left: -210px;
+  color: #612316;
+}
+.signup-section{
+  width: 100%;
+  height: 1018px;
+}
+
+.signup-title-1{
+  font-family: "RobotoSlab";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.6; 
+  text-align: left;
+  color: #191b29;
+
+}
+.signup-detail-1{
+  width: 561px;
+  height: 137px;
+  font-family: "RobotoSlab";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.88;
+  text-align: left;
+  color: #191b29;
+}
+.img{
+  width: 586px;
+  height: 405px;
+  border: solid 1px #999;
+  background-color: #fff;
+}
+.signup-button{
+  width: 213px;
+  height: 54px;
+  border-radius: 27px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: #dd4b2b;
+  line-height:3 ;
+  font-family: "RobotoSlab";
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
