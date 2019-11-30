@@ -15,7 +15,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.login-container {
+.register-container {
   height: 500px;
   width: 350px;
   border: 2px solid white;
@@ -29,7 +29,20 @@ section {
   color: #fff;
   text-align: center;
 }
-
+.email {
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  font-size: 18px;
+  height: 40px;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding-left: 10px;
+  color: #333;
+}
+.email:focus {
+  outline: none;
+}
 .username {
   font-family: "Helvetica Neue";
   font-weight: 300;
@@ -77,4 +90,11 @@ section {
   font-weight: 300;
   font-size: 15px;
   text-decoration: underline;
+}
+
+@keyframes face {
+  form {
+  }
+  to {
+  }
 }

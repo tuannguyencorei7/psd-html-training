@@ -1,10 +1,10 @@
-body{
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
 .logo {
@@ -15,23 +15,22 @@ a:hover{
   text-align: center;
   color: #31353e;
 }
-.navbar-text{
+.navbar-text {
   font-family: "Helvetica Neue";
   font-size: 18px;
   text-align: center;
   color: #31353e;
 }
 
-
-.header-section{
-    background-image: url("../img/header.png");
-    background-size: 100%;
-    width: 100%;
-    height: 950px;
-    position: relative;
+.header-section {
+  background-image: url("../img/header.png");
+  background-size: 100%;
+  width: 100%;
+  height: 950px;
+  position: relative;
 }
-.heading{
-    height: 950px;
+.heading {
+  height: 950px;
   text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.4);
   font-family: "Helvetica Neue";
   font-size: 72px;
@@ -44,36 +43,35 @@ a:hover{
   left: 50%;
   transform: translate(-50%, -55%);
 }
-.sub-heading{
-    /* height: 950px; */
-    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.4);
-    font-family: "Helvetica Neue";
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-    color: #ffffff;
+.sub-heading {
+  /* height: 950px; */
+  text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.4);
+  font-family: "Helvetica Neue";
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
 }
-.dish-container{
-  transform: translate(0,130%);
+.dish-container {
+  transform: translate(0, 130%);
 }
-.dish{
+.dish {
   width: 134px;
   height: 134px;
   border: solid 0px #edeff1;
   border-radius: 100%;
-  
 }
-.dish-title{
+.dish-title {
   font-family: "Helvetica Neue";
   font-size: 30px;
-  font-weight: bold;  
+  font-weight: bold;
   color: #ffffff;
   margin-bottom: 8px;
   margin-top: 20px;
   padding: 0;
   border: 0;
 }
-.dish-detail{
+.dish-detail {
   width: 303px;
   height: 74px;
   font-family: "Helvetica Neue";
@@ -82,7 +80,7 @@ a:hover{
   text-align: center;
   color: #ffffff;
 }
-.readmore-button{
+.readmore-button {
   width: 213px;
   height: 54px;
   border-radius: 27px;
@@ -94,20 +92,20 @@ a:hover{
   color: #612316;
   justify-content: center;
   line-height: 2.9;
-  margin-left:auto ;
+  margin-left: auto;
   margin-right: auto;
-  transform: translate(0,150%);
+  transform: translate(0, 150%);
 }
 
 /* New------------------------------------------ */
-.news-section{
+.news-section {
   /* background-image: url("../img/news-img.jpg"); */
   background-size: 100%;
   width: 100%;
-  height:600px;
+  height: 600px;
   position: relative;
 }
-.news-title{
+.news-title {
   font-family: "Helvetica Neue";
   font-size: 30px;
   font-weight: bold;
@@ -115,20 +113,20 @@ a:hover{
   color: #31353e;
 }
 
-.news-dish{
+.news-dish {
   width: 330px;
   height: 220px;
   object-fit: contain;
 }
 
-.news-title{
+.news-title {
   font-family: "Helvetica Neue";
   font-size: 24px;
   font-weight: 300;
   /* text-align: center; */
   color: #31353e;
 }
-.news-detail{
+.news-detail {
   font-family: "Helvetica Neue";
   font-size: 15px;
   font-weight: 300;
@@ -136,9 +134,7 @@ a:hover{
   /* text-align: justify; */
 }
 
-
-
-.news-readmore-container{
+.news-readmore-container {
   width: 160px;
   height: 54px;
   border-radius: 27px;
@@ -146,7 +142,7 @@ a:hover{
   background-color: #333;
   text-align: center;
 }
-.news-readmore-container{
+.news-readmore-container {
   width: 179px;
   height: 54px;
   border-radius: 27px;
@@ -155,7 +151,7 @@ a:hover{
   display: table;
 }
 
-.news-readmore-button{
+.news-readmore-button {
   width: 71px;
   height: 11px;
   font-family: "Helvetica Neue";
@@ -168,13 +164,13 @@ a:hover{
 }
 
 /* email------------------------------------------- */
-.email-section{
+.email-section {
   background-image: url("../img/news-img.jpg");
- background-size: 100%;
- width: 100%;
- height: 270px;
+  background-size: 100%;
+  width: 100%;
+  height: 270px;
 }
-.email-title{
+.email-title {
   width: 154px;
   height: 24px;
   font-family: "RobotoSlab";
@@ -185,7 +181,7 @@ a:hover{
   color: #ffffff;
 }
 
-.email-detail{
+.email-detail {
   width: 533px;
   height: 38px;
   font-family: "Roboto";
@@ -196,21 +192,20 @@ a:hover{
   text-align: center;
 }
 
-.email-field{
+.email-field {
   width: 500px;
   height: 54px;
   border-radius: 27px;
   border: solid 1px #fff;
-  background-color:rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   /* background: transparent; */
   box-shadow: none;
   outline: none;
   padding: 20px;
   /* opacity: 0.4; */
-
 }
 
-.email-field-button{
+.email-field-button {
   width: 213px;
   height: 54px;
   border-radius: 27px;
@@ -224,53 +219,50 @@ a:hover{
   margin-left: -210px;
   color: #612316;
 }
-.signup-section{
+.signup-section {
   width: 100%;
-  height: 1018px;
+  height: 500px;
+}
+.detail-container {
+  width: 500px;
+  height: 405px;
 }
 
-.signup-title-1{
+.signup-title-1 {
   font-family: "RobotoSlab";
   font-size: 30px;
   font-weight: bold;
-  line-height: 1.6; 
-  text-align: left;
-  color: #191b29;
-
+  color: #333;
 }
-.signup-detail-1{
-  width: 561px;
-  height: 137px;
+.signup-detail-1 {
   font-family: "RobotoSlab";
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.88;
-  text-align: left;
-  color: #191b29;
+  color: #333;
 }
-.img{
+.img {
   width: 586px;
   height: 405px;
   border: solid 1px #999;
   background-color: #fff;
 }
-.signup-button{
+.signup-button {
   width: 213px;
   height: 54px;
   border-radius: 27px;
   border: solid 1px rgba(255, 255, 255, 0.5);
   background-color: #dd4b2b;
-  line-height:3 ;
+  line-height: 3;
   font-family: "RobotoSlab";
   font-size: 18px;
   text-align: center;
   color: #ffffff;
 }
-.name-section{ 
+.name-section {
   background-color: #d75d0e;
   color: #fff;
 }
-.name-text{
+.name-text {
   font-family: "RobotoSlab";
   font-size: 18px;
   font-weight: 200;
@@ -278,15 +270,15 @@ a:hover{
   /* text-align: center; */
   color: #ffffff;
 }
-.end-name-section{
-  background-image:url("../img/news-img.jpg");
+.end-name-section {
+  background-image: url("../img/news-img.jpg");
   background-size: 100%;
   width: 100%;
   height: 270px;
   color: #fff;
   font-weight: 90;
   font-family: "Helvetica Neue";
-  vertical-align:middle;
+  vertical-align: middle;
   line-height: 270px;
   font-size: 18px;
 }
