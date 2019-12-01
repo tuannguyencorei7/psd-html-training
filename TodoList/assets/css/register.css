@@ -84,17 +84,13 @@ section {
   font-size: 18px;
   line-height: 2;
 }
-.register-link {
+.login-link {
   color: #fff;
   font-family: "Helvetica Neue";
   font-weight: 300;
   font-size: 15px;
   text-decoration: underline;
 }
-
-@keyframes face {
-  form {
-  }
-  to {
-  }
+.login-link:hover {
+  color: #fff;
 }
