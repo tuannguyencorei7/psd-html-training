@@ -4,7 +4,7 @@ html {
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/arts-build-close-up-commerce-273230.jpg");
+    url("../img/aerial-architectural-design-architecture-buildings-373912.jpg");
   background-size: 100%;
 }
 section {
@@ -83,6 +83,11 @@ section {
   font-weight: 300;
   font-size: 18px;
   line-height: 2;
+  outline: none;
+  border: 0px;
+}
+.login-button:focus{
+  outline: none;
 }
 .login-link {
   color: #fff;

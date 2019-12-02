@@ -70,6 +70,11 @@ section {
   font-weight: 300;
   font-size: 18px;
   line-height: 2;
+  outline: none;
+  border: 0px;
+}
+.login-button:focus{
+  outline: none;
 }
 .register-link {
   color: #fff;
